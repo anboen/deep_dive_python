@@ -57,7 +57,3 @@ class TestValidateWeight(unittest.TestCase):
     def test_bad_case(self):
         weight = 161
         self.assertEqual(validate_weight(weight), False)
-
-
-if __name__ == '__main__':
-    unittest.main()
